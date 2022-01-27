@@ -1,55 +1,49 @@
 <!DOCTYPE html>
-x  <title>Weather App</title>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-<form id="search-form">
-  <input type="search"
-  placeholder="Enter City Name"
-  id="search-input"
-  required
-  autocomplete="off"
-  />
-  <br>
+<html>
+    <title>Weather app</title>
+    <head>
+        <link rel="stylesheet" href ="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-  <button id="search-button">Search</button>
-</form>
-<main id="app-container">
-  <div id="image">
-    <img src="http://purepng.com/public/uploads/large/purepng.com-weather-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596142qx4ep.png" alt="weather condition" width="70" height="70">
-    </div>
-  <div id="location">
-  <h3><p> Location _________</p></h3>
-  </div>
-  <div id="temp">
-   <h3><p><span id="temp-value">Temperature_________</span> <span id="temp-unit" >&#176c</span></p></h3>
-  </div>
-  <div id="climate">
-    <h3><p>Climate_________</p></h3>
-  </div>
-</main>
+    <body>
+
+        <form id="search-form">
+            <input type="search"
+            placeholder="Enter City Name"
+            id="search-input"
+            required
+            autocomplete="off"
+            />
+            <br>
+        </br>
+        <button id="search-button">Search</button>
+
+        </form>
 
 
+        <main id="app-container">
+            <div id="location">
+                <p>-------</p>
+            </div>
+                <div id="temp">
+                    <img id="temp-icon" src="sun.svg" alt="">
+                    <p><span id="temp-value">-----</span> <span id="temp-unit" >&#176c</span> </p>
+                </div>
 
-
-
-
-
-
-
-
-`
+                <div id="climate">
+                    <p>------</p>
+                </div>
 
 
 
 
 
+        </main>
 
-
-<script src="script.js">
+<script src="main.js">
 
 </script>
-  </body>
+    </body>
+
 </html>
